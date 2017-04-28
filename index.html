@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cemaco</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<script src="js/jquery-1.11.0.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=open+Sans+SC:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+				</script>	
+<!-- start menu -->
+<script src="js/simpleCart.min.js"> </script>
+<link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/memenu.js"></script>
+<script>$(document).ready(function(){$(".memenu").memenu();});</script>				
+</head>
+<body> 
+	<!--top-header-->
+<div class="top-header">
+	<div class="container">
+		<div class="top-header-main">
+			<div class="col-md-2 top-header-middle">
+				<a href="index.html"><img src="images/cemaco.png"/></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--top-header-->
+	
+	<!--banner-starts-->
+	<div class="bnr" id="home">
+		<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider4">
+			    <li>
+					<div class="banner-1"></div>
+				</li>
+				<li>
+					<div class="banner-2"></div>
+				</li>
+				<li>
+					<div class="banner-3"></div>
+				</li>
+			</ul>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!--banner-ends--> 
+	<!--Slider-Starts-Here-->
+        <script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: false,
+			        speed: 1000,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--End-slider-script-->
+	<!--start-banner-bottom--> 
+	
+	<div class="banner-bottom">
+		<div class="container">
+		
+			<div class="banner-bottom-top">
+			<h1><p>Ofertas del mes</p></h1>
+				<div class="col-md-6 banner-bottom-left">
+					<div class="bnr-one">
+						<div class="bnr-left">
+							<h1>Juego de mesa</h1>
+							<p>mesa de madera con sillas</p>
+							<input type="button" class="btn btn-danger" value="Compra Ahora">
+						</div>
+						<div class="bnr-right"> 
+							<img src="images/b-1.jpg"/>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-6 banner-bottom-right">
+					<div class="bnr-two">
+						<div class="bnr-left">
+							<h2>Juego de mesa</h2>
+							<p>Silla de Madera con sillas</p>
+							<input type="button" class="btn btn-danger" value="Compra Ahora">
+						</div>
+						<div class="bnr-right"> 
+							<img src="images/b-2.jpg" alt="" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--end-banner-bottom--> 
+	<!--start-shoes--> 
+	<div class="shoes"> 
+		<div class="container"> 
+			<div class="product-one">
+				<div class="col-md-3 product-left"> 
+					<div class="p-one simpleCart_shelfItem">							
+							<a href="#">
+								<img src="images/collar.jpg" alt="" />
+								<div class="mask">
+									<span>Ver Detalles</span>
+								</div>
+							</a>
+						<h4>Nombre de Producto</h4>
+						<p><a class="item_add" href="#"><i></i> <span class=" item_price">Q00</span></a></p>
+					
+					</div>
+				</div>
+				<div class="col-md-3 product-left"> 
+					<div class="p-one simpleCart_shelfItem">
+						
+						<a href="#">
+								<img src="images/desodo.png" alt="" />
+								<div class="mask">
+									<span>Ver Detalles</span>
+								</div>
+							</a>
+						<h4>Nombre de Producto</h4>
+						<p><a class="item_add" href="#"><i></i> <span class=" item_price">Q00</span></a></p>
+						
+					</div>
+				</div>
+				
+				<div class="col-md-3 product-left"> 
+					<div class="p-one simpleCart_shelfItem">
+						
+						<a href="#">
+								<img src="images/envase.jpg" alt="" />
+								<div class="mask">
+									<span>Ver Detalles</span>
+								</div>
+							</a>
+						<h4>Nombre de Producto</h4>
+						<p><a class="item_add" href="#"><i></i> <span class=" item_price">Q00</span></a></p>
+						
+					</div>
+				</div>
+				
+				<div class="col-md-3 product-left"> 
+					<div class="p-one simpleCart_shelfItem">
+						
+						<a href="#">
+								<img src="images/compu.jpg" alt="" />
+								<div class="mask">
+									<span>Ver Detalles</span>
+								</div>
+							</a>
+						<h4>Nombre de Producto</h4>
+						<p><a class="item_add" href="#"><i></i> <span class=" item_price">Q00</span></a></p>
+						
+					</div>
+				</div>
+				
+				<div class="clearfix"></div>
+			</div>
+			<div class="product-one">
+				
+				<div class="col-md-3 product-left"> 
+					<div class="p-one simpleCart_shelfItem">
+						
+						<a href="#">
+								<img src="images/ipod.jpg" alt="" />
+								<div class="mask">
+									<span>Ver Detalles</span>
+								</div>
+							</a>
+						<h4>Nombre de Producto</h4>
+						<p><a class="item_add" href="#"><i></i> <span class=" item_price">Q00</span></a></p>
+						
+					</div>
+				</div>
+				
+				<div class="col-md-3 product-left"> 
+					<div class="p-one simpleCart_shelfItem">
+						
+						<a href="#">
+								<img src="images/crema.png" alt="" />
+								<div class="mask">
+									<span>Ver Detalles</span>
+								</div>
+							</a>
+						<h4>Nombre de Producto</h4>
+						<p><a class="item_add" href="#"><i></i> <span class=" item_price">Q00</span></a></p>
+						
+					</div>
+				</div>
+				
+				<div class="col-md-3 product-left"> 
+					<div class="p-one simpleCart_shelfItem">
+						
+						<a href="#">
+								<img src="images/cosa.jpg" alt="" />
+								<div class="mask">
+									<span>Ver Detalles</span>
+								</div>
+							</a>
+						<h4>Nombre de Producto</h4>
+						<p><a class="item_add" href="#"><i></i> <span class=" item_price">Q00</span></a></p>
+						
+					</div>
+				</div>
+				
+				<div class="col-md-3 product-left"> 
+					<div class="p-one simpleCart_shelfItem">
+						
+						<a href="#">
+								<img src="images/vasos.jpg" alt="" />
+								<div class="mask">
+									<span>Ver Detalles</span>
+								</div>
+							</a>
+						<h4>Nombre de Producto</h4>
+						<p><a class="item_add" href="#"><i></i> <span class=" item_price">Q00</span></a></p>
+						
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--end-shoes-->
+
+	<!--end-abt-shoe-->
+	<!--start-footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 footer-left">
+					<h3>Nesecitas Ayuda?</h3>
+					<ul>
+						<li>Contáctanos</li>
+						<li>Preguntas Frecuentes</li>
+						<li>Tiendas</li>
+						<li>Garantía Total</li>					 
+					</ul>
+				</div>
+				<div class="col-md-4 footer-left">
+					<h3>Mi cuenta</h3>
+					<ul>
+						<li>Regístrate</li>
+						<li>Mis Pedidos</li>
+						<li>Editar Cuenta</li>
+						<li>Mi Privilegio</li>					 					 
+					</ul>
+				</div>
+				<div class="col-md-4 footer-left">
+					<h3>Sobre Nosotros</h3>
+					<ul>
+						<li>Quiénes Somos</li>
+						<li>Guate Nuestro Hogar</li>
+						<li>Ventas a empresas</li>
+						<li>Trabajar en CEMACO</li>					 					 
+					</ul>
+				</div>
+				<div class="col-md-4 footer-left">
+					<h3>Conoce Lo Nuevo</h3>
+					<ul>
+						<li>Suscríbite ahora y recibe las últimas noticias, ofertas, promociones y actividades en la tienda.</li>
+											 					 
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--end-footer-->
+	<!--end-footer-text-->
+	<div class="footer-text">
+		<div class="container">
+			<div class="footer-main">
+				<p class="footer-class">© Todos los derechos reservados</p>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--end-footer-text-->	
+</body>
+</html>
